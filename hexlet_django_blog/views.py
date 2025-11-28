@@ -7,7 +7,7 @@ def index(request):
         request,
         "index.html",
         context={
-            "who": "World",
+            "who": "Dmitry",
         },
     )
 def about(request):
